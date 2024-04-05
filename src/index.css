@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+@layer components {
+  .shadow {
+    box-shadow: 0px 1px 14.1px 0px rgba(0, 0, 0, 0.06);
+  }
+
+  .feasout {
+    transition: opacity 2s ease; /* Add transition effect */
+    background-color: red;
+    /* filter: brightness(90%); */
+  
+  }
+}
+
+.stats {
+  box-shadow: 0px 1px 14.1px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+* {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+body,html {
+  background-color: #F8F8F8;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+
+a, a:link a:visited {
+  color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+body {
+  /* font-family: 'Playfair Display', serif; */
+  font-family: "Roboto"
+}
+
+.globalScrollbar::-webkit-scrollbar {
+  background-color: #bebdbd;
+  width: 4px;
+  padding: 1px;
+}
+.globalScrollbar::-webkit-scrollbar-thumb {
+  background-color: #6e645e;
+}
+
+@media ( min-width: 760px ) {
+  .scrollbar::-webkit-scrollbar {
+    background-color: #bebdbd;
+    width: 4px;
+    padding: 1px;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #8B4513;
+  }
+}
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Override the border radius of the toast */
+.Toastify__toast {
+  @apply rounded-lg;
+  box-shadow: 0px 1px 14.1px 0px rgba(0, 0, 0, 0.06);
+  @apply text-sm;
+  @apply text-fdt-grey-darker;
+  @apply font-Roboto;
+  @apply  px-4;
+  @apply py-3;
+  min-height: fit-content;
+
+}
+
+.Toastify__toast-body {
+  padding: 0;
+}
+
+.Toastify__toast--rtl {
+  height: 30px;
+}
+
+.Toastify__toast--success::after {
+  @apply p-0
+}
