@@ -13,10 +13,19 @@
   }
 
   .feasout {
-    transition: opacity 2s ease; /* Add transition effect */
-    background-color: red;
-    /* filter: brightness(90%); */
-  
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out
+  }
+
+  .s-feasout {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out
+  }
+
+  .hero {
+    opacity: 0.9;
+  }
+
+  .t-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Example: Shadow with slight blur */
   }
 }
 

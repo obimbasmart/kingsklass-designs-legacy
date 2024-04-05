@@ -11,16 +11,16 @@ interface IStep {
 function Step({ number, desc, title }: IStep) {
   return (
     <div
-      className="pll-6 min-w-[150px] max-w-[300px] relative mobile:max-w-[150px]"
+      className="w-[48%] max-w-[500px] relative mobile:max-w-[300px]"
       id="howItWorks"
     >
-      <span className="text-fdt-brown-light-active font-normal text-3xl absolute top-[50%] -left-6 -mobile:left-10">
-        {number}
+      <span className="text-fdt-brown-light-active opacity-[0.4] font-normal text-4xl leading-10 absolute top-[5%] -mobile:left-10 font-obitron">
+        0{number}
       </span>
-      <h4 className="mb-0 text-fdt-brown-normal font-normal text-[18px] w-full">
+      <h4 className="mb-0 text-fdt-brown-normal font-normal text-[18px] w-full pt-8 border-b">
         {title}
       </h4>
-      <p className="text-fdt-brown-darker font-light font-inherit mt-2 m-0 text-[15px]">
+      <p className="w-full text-fdt-brown-darker font-light font-inherit mt-2 m-0 text-base">
         {desc}
       </p>
     </div>
@@ -32,7 +32,7 @@ function HowItWorks() {
   const navigate = useNavigate();
 
   return (
-    <section className="w-full pb-5 bg-fdt-grey-light-hover flex flex-col justify-center items-center">
+    <section className="w-full pb-5 bg-white flex flex-col justify-center items-center">
       <div className="w-full flex flex-col justify-center items-center py-5">
         <h3 className="text-base mb-0 font-normal text-fdt-brown-normal">
           OUR SERVICES
@@ -50,7 +50,7 @@ function HowItWorks() {
         </Buttons>
       </div>
 
-      <section className="py-4 max-w-[800px] rounded-[8px] bg-[#F8F8F8]  flex flex-row flex-wrap justify-evenly gap-y-6">
+      <section className="px-6 py-4 px-2max-w-[800px] rounded-[8px] bg-[#F8F8F8]  flex flex-row flex-wrap justify-between gap-y-4">
         {howItWork.map((step) => (
           <Step
             key={step.number}

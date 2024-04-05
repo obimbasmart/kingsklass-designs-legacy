@@ -168,8 +168,8 @@ export const howItWork = [
 
   {
     number: "2",
-    title: "Personalize Your Order",
-    desc: "Provide your precise measurements using our intuitive measurement guide",
+    title: "Personalize Order",
+    desc: "Provide your precise measurements using our intuitive measurement guide. This ensures a perfect fit tailored just for you",
   },
 
   {
@@ -184,4 +184,24 @@ export const howItWork = [
     desc: "Receive timely updates on the status of your order, from fabric cutting to stitching and final touches.",
   },
 ];
+
+
+export const categories = [
+  {
+    name: "Agbada",
+    url: "/agbada.png"
+  },
+  {
+    name: "Senator",
+    url: "/senator.png"
+  },
+  {
+    name: "Suits",
+    url: "/suit.png"
+  },
+  // {
+  //   name: "Shirts",
+  //   url: "/shirts"
+  // }
+]
 // %his ensures a perfect fit tailored just for you.

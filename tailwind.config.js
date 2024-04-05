@@ -17,6 +17,7 @@ export default {
         "fdt-grey-dark" : "#6E6E6E",
         "fdt-brown-light" : "#F3ECE7",
         "fdt-grey-dark-active": "#424242",
+        "fdt-grey-background": "#F8F8F8"
       },
 
       fontSize: {
@@ -30,7 +31,8 @@ export default {
         "playfair-display" : ["Playfair Display", "serif"],
         "Roboto" : "Roboto",
         "montserrat" : ["Montserrat", "sans-serif"],
-        "montserrat-alternates" : ["Montserrat Alternates", "sans-serif"]
+        "montserrat-alternates" : ["Montserrat Alternates", "sans-serif"],
+        "obitron": ["Orbitron", "sans-serif"]
       },
 
       borderWidth : {
