@@ -5,6 +5,7 @@ import HowItWorks from "./components/HowItWorks.tsx";
 import Testimonials from "./components/Testimonials.tsx";
 import HowCanWeHelp from "./components/HowCanWeHelp.tsx";
 import WhyCustomTailoring from "./components/WhyCustomTailoring.tsx";
+import Promotions from "./components/Promotions.tsx";
 
 export const Home = () => {
 
@@ -14,6 +15,7 @@ export const Home = () => {
 
       <HowCanWeHelp />
       <HowItWorks />
+      <Promotions />
       <WhyCustomTailoring />
       <Testimonials />
       <ContactUs />

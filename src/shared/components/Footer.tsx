@@ -34,7 +34,7 @@ export const Footer = () => {
               +2348024086830
             </a>
           </p>
-          <p className="m-0">shop@kigklass.nigeria</p>
+          <p className="m-0">shop@kingsklass.nigeria</p>
         </div>
 
         <div className="md:flex-none flex justify-between pr-6 md:w-[55%]">

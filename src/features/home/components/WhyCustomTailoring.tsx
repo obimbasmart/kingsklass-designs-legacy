@@ -31,9 +31,9 @@ function Offer({ Icon, title, desc }: OfferProps) {
 export default function WhyCustomTailoring() {
   return (
     <section className="w-full flex flex-col justify-center items-center">
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center gap-3">
         <h4 className="text-fdt-brown-normal font-normal mb-0">GALLARY</h4>
-        <h3 className="text-fdt-brown-dark font-playfair-display text-[1.25rem] font-normal mt-1">
+        <h3 className="text-fdt-brown-dark font-playfair-display text-base font-normal">
           Why Custom Tailoring ?
         </h3>
         <img

@@ -33,7 +33,7 @@ export default function Testimonials() {
       {/* Reviews */}
       <div
         ref={refContainer}
-        className="scroll-smooth p-3 pb-0 flex items-center gap-x-4 overflow-x-scroll"
+        className="file:scroll-smooth  p-3 pb-0 flex items-center gap-x-4 overflow-x-scroll"
       >
         {UserFeedback.map((feedback, index) => (
           <FeedBacks
@@ -53,7 +53,7 @@ export default function Testimonials() {
             onClick={() => toggleScroll("LEFT")}
             px=""
             py=""
-            classNames="rounded-full grid place-content-center w-8 h-8 bg-white hover:bg-gray-200 active:bg-gray-100 transition-colors"
+            classNames="shadow rounded-full grid place-content-center w-8 h-8 bg-white hover:bg-gray-200 active:bg-gray-100 transition-colors"
           >
             <SlArrowLeft className="text-xl" />
           </Buttons>
@@ -61,7 +61,7 @@ export default function Testimonials() {
             onClick={() => toggleScroll("RIGHT")}
             px=""
             py=""
-            classNames="rounded-full grid place-content-center w-8 h-8 bg-white hover:bg-gray-200 active:bg-gray-100 transition-colors"
+            classNames="shadow rounded-full grid place-content-center w-8 h-8 bg-white hover:bg-gray-200 active:bg-gray-100 transition-colors"
           >
             <SlArrowRight className="text-xl" />
           </Buttons>
