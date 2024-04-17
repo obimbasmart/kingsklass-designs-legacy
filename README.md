@@ -1,4 +1,4 @@
-# KING KLASS
+# KingsKlass Designs
 
 [TAP TO WATCH PROJECT PREVIEW](https://youtu.be/zF-cZQd8vv8?si=RzNsYq2nv8mNf8AT)
 
